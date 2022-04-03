@@ -1,0 +1,45 @@
+body{
+  background-color: #212122;
+}
+.titolone{
+  font-size: 20px;
+  color:whitesmoke;
+  padding-left: 10px;
+}
+
+.titolo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  border-radius: 15px;
+}
+
+.search{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search input[type=search] {
+  float: center;
+  padding: 6px;
+  border: none;
+  font-size: 25px;
+}
+.search button{
+  margin-top: 10px;
+  font-size: 22px; 
+}
+
+.answer{
+  color:whitesmoke;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+a{
+  font-size: 20px;
+  color:rgb(240, 122, 122)
+}
